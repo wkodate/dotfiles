@@ -1,0 +1,9 @@
+[user]
+	name = wkodate
+	email = n9lfcth9@gmail.com
+[color]
+	ui = auto
+[branch "master"]
+	merge = refs/heads/master
+[merge]
+	ff = false

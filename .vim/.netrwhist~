@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/wkodate/Developer/collectiveIntelligence/sample'
+let g:netrw_dirhist_2='/Users/wkodate/Developer/collectiveIntelligence/sample/chapter2'
+let g:netrw_dirhist_3='/Users/wkodate/Developer/collectiveIntelligence/recommendations'
+let g:netrw_dirhist_4='/Users/wkodate/Developer/collectiveIntelligence'
+let g:netrw_dirhist_5='/Users/wkodate/Developer/collectiveIntelligence/sample'
+let g:netrw_dirhist_6='/Users/wkodate/Developer/collectiveIntelligence/sample/chapter2'
