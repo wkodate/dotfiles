@@ -1,6 +1,7 @@
 export PATH=/usr/local/sbin:$PATH # for Homebrew
 export PATH=/usr/local/bin:$PATH  # for Homebrew
 export PHP_HOME=$HOME/local/php/versions
+export PATH=$PATH:/usr/local/opt/go/libexec/bin # Go lang
 # source $(brew --prefix php-version)/php-version.sh && php-version 5.4.0 >/dev/null
 
 alias cdbps='cd /Applications/MAMP/htdocs/BPS'
@@ -17,7 +18,7 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 source ~/.git-completion.bash
 source ~/.git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=true
-PS1='\[\033[32m\]\u@\h\[\033[00m\]:\[\033[34m\]\w\[\033[31m\]$(__git_ps1)\[\033[00m\]\$ '
+PS1='\[\033[32m\]\u@\h\[\033[00m\]:\[\033[34m\]\w\[\033[31m\]$(__git_ps1)\[\033[00m\]\n\$ '
 export PS1=$PS1
 
 

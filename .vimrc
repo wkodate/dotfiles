@@ -4,7 +4,7 @@
  "              newbie, basing your first .vimrc on this file is a good choice.
  "              If you're a more advanced user, building your own .vimrc based
  "              on this file is still a good idea.
- 
+
  "------------------------------------------------------------
  " Features {{{1
  "
@@ -84,6 +84,7 @@
  " the same indent as the line you're currently on. Useful for READMEs, etc.
  " オートインデント
  set autoindent
+ set smartindent
  
  " Stop certain movements from always going to the first character of a line.
  " While this behaviour deviates from that of Vi, it does what most users
@@ -148,8 +149,8 @@
  " Do not change 'tabstop' from its default value of 8 with this setup.
  " タブ文字の代わりにスペース2個を使う場合の設定。
  " この場合、'tabstop'はデフォルトの8から変えない。
- set shiftwidth=4
- set softtabstop=4
+ set shiftwidth=2
+ set softtabstop=2
  set expandtab
  
  " Indentation settings for using hard tabs for indent. Display tabs as
@@ -157,7 +158,7 @@
  " インデントにハードタブを使う場合の設定。
  " タブ文字を2文字分の幅で表示する。
  "set shiftwidth=2
- "set tabstop=2
+set tabstop=2
  
  
  "------------------------------------------------------------
@@ -170,6 +171,8 @@
  " which is the default
  " Yの動作をDやCと同じにする
  map Y y$
+
+ set cursorline
  
  " Map <C-L> (redraw screen) to also turn off search highlighting until the
  " next search
@@ -185,3 +188,4 @@ else
 endif
 
  "------------------------------------------------------------
+let g:rsenseHome = "/usr/local/Cellar/rsense/0.3/libexec"
