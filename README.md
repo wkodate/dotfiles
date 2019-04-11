@@ -3,21 +3,9 @@ dotfiles
 
 ## Usage
 
-Copy this repository to home directory.
+Copy this repository to home directory and create symbolic link.
 
 ```
-$ cd
-$ git clone git@github.com:wkodate/dotfiles.git
-```
-
-Create symbolic link.
-
-```
+$ cd && git clone git@github.com:wkodate/dotfiles.git
 $ sh dotfiles/create_links.sh
-```
-
-Check symbolic links in home directory.
-
-```
-$ ls -la ~ | grep "\."
 ```
